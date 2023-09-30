@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tombol dan Fieldset</title>
+    </head>
+    <body>
+        <form>
+            <p>
+                Nama Depan : &nbsp;&nbsp;&nbsp;&nbsp; <!-- &nbsp; = spasi -->
+                <input type="text" name="NamaDepan">
+                <br>
+                Nama Belakang :
+                <input type="text" name="NamaBelakang">
+                <br>
+                Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" name="Password">
+            </p>
+            <p>
+                Jenis Kelamin :
+                <label>
+                <input type="radio" name="Gender" value="Laki-Laki">
+                Laki-Laki :</label>
+                <label>
+                <input type="radio" name="Gender" value="Perempuan">
+                Perempuan :</label>
+            </p>
+            <p>
+                Pilih Jurusan :
+                <select name="Jurusan">
+                    <option value="TKJ">Teknik Komputer Jaringan
+                    <option value="TEI">Teknik Elektronika Industri 
+                    <option value="TKRO">Teknik Kendaraan Ringan dan Otomotif
+                    <option value="TBSM">Teknik dan Bisnis Sepeda Motor
+                    <option value="BDPM">Bisnis Daring dan Pemasaran
+                    <option value="AKL">Akuntansi dan Keuangan Lembaga
+                    <option value="TB">Tata Boga
+                </select>
+            </p>
+            <p>
+                Hobi :
+            <p>
+                <label>
+                <input name="Hobi" type="checkbox" value="Badminton">
+                Badminton</label>
+            <p>
+                <label>
+                <input name="Hobi" type="checkbox" value="Sepak Bola">
+                Sepak Bola</label>
+            <p>
+                <label>
+                <input name="Hobi" type="checkbox" value="Basket">
+                Basket</label>
+            <p>
+                <label>
+                <input name="Hobi" type="checkbox" value="Berenang">
+                Berenang</label>
+            <p>
+                <label>
+                <input name="Hobi" type="checkbox" value="Memancing">
+                Memancing</label>
+            <p>
+            <input name="btnkirim" type="submit"  id="btnkirim" value="Kirim">
+            <input name="btncancel" type="reset"  id="btncancel" value="Cancel">
+            </p>
+        </form>
+    </body>
+</html>
